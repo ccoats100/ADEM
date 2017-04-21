@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		351F05EE1E86018F0074FA8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351F05ED1E86018F0074FA8E /* AppDelegate.swift */; };
+		351F05F01E86018F0074FA8E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351F05EF1E86018F0074FA8E /* FirstViewController.swift */; };
+		351F05F21E86018F0074FA8E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351F05F11E86018F0074FA8E /* SecondViewController.swift */; };
+		351F05F51E86018F0074FA8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351F05F31E86018F0074FA8E /* Main.storyboard */; };
+		351F05F71E86018F0074FA8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 351F05F61E86018F0074FA8E /* Assets.xcassets */; };
+		351F05FA1E86018F0074FA8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351F05F81E86018F0074FA8E /* LaunchScreen.storyboard */; };
+		351F06051E86018F0074FA8E /* ADEM_SearchbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351F06041E86018F0074FA8E /* ADEM_SearchbarTests.swift */; };
+		351F06101E86018F0074FA8E /* ADEM_SearchbarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351F060F1E86018F0074FA8E /* ADEM_SearchbarUITests.swift */; };
+		351F061E1E8601F40074FA8E /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351F061D1E8601F40074FA8E /* ListTableViewCell.swift */; };
+		35D29E0D1E9736D5009C449A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D29E0C1E9736D5009C449A /* SearchViewController.swift */; };
+		35D29E0F1E973771009C449A /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D29E0E1E973771009C449A /* SearchTableViewCell.swift */; };
+		35D29E131E9819AA009C449A /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D29E121E9819AA009C449A /* ResultsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		351F06011E86018F0074FA8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351F05E21E86018F0074FA8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 351F05E91E86018F0074FA8E;
+			remoteInfo = "ADEM Searchbar";
+		};
+		351F060C1E86018F0074FA8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351F05E21E86018F0074FA8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 351F05E91E86018F0074FA8E;
+			remoteInfo = "ADEM Searchbar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		351F05EA1E86018F0074FA8E /* ADEM Searchbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ADEM Searchbar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		351F05ED1E86018F0074FA8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		351F05EF1E86018F0074FA8E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		351F05F11E86018F0074FA8E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		351F05F41E86018F0074FA8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		351F05F61E86018F0074FA8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		351F05F91E86018F0074FA8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		351F05FB1E86018F0074FA8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		351F06001E86018F0074FA8E /* ADEM SearchbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ADEM SearchbarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		351F06041E86018F0074FA8E /* ADEM_SearchbarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADEM_SearchbarTests.swift; sourceTree = "<group>"; };
+		351F06061E86018F0074FA8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		351F060B1E86018F0074FA8E /* ADEM SearchbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ADEM SearchbarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		351F060F1E86018F0074FA8E /* ADEM_SearchbarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADEM_SearchbarUITests.swift; sourceTree = "<group>"; };
+		351F06111E86018F0074FA8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		351F061D1E8601F40074FA8E /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		35D29E0C1E9736D5009C449A /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		35D29E0E1E973771009C449A /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		35D29E121E9819AA009C449A /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultsViewController.swift; path = ../ResultsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		351F05E71E86018F0074FA8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351F05FD1E86018F0074FA8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351F06081E86018F0074FA8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		351F05E11E86018F0074FA8E = {
+			isa = PBXGroup;
+			children = (
+				351F05EC1E86018F0074FA8E /* ADEM Searchbar */,
+				351F06031E86018F0074FA8E /* ADEM SearchbarTests */,
+				351F060E1E86018F0074FA8E /* ADEM SearchbarUITests */,
+				351F05EB1E86018F0074FA8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		351F05EB1E86018F0074FA8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				351F05EA1E86018F0074FA8E /* ADEM Searchbar.app */,
+				351F06001E86018F0074FA8E /* ADEM SearchbarTests.xctest */,
+				351F060B1E86018F0074FA8E /* ADEM SearchbarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		351F05EC1E86018F0074FA8E /* ADEM Searchbar */ = {
+			isa = PBXGroup;
+			children = (
+				351F05ED1E86018F0074FA8E /* AppDelegate.swift */,
+				351F05EF1E86018F0074FA8E /* FirstViewController.swift */,
+				35D29E0C1E9736D5009C449A /* SearchViewController.swift */,
+				35D29E121E9819AA009C449A /* ResultsViewController.swift */,
+				35D29E0E1E973771009C449A /* SearchTableViewCell.swift */,
+				351F05F11E86018F0074FA8E /* SecondViewController.swift */,
+				351F05F31E86018F0074FA8E /* Main.storyboard */,
+				351F061D1E8601F40074FA8E /* ListTableViewCell.swift */,
+				351F05F61E86018F0074FA8E /* Assets.xcassets */,
+				351F05F81E86018F0074FA8E /* LaunchScreen.storyboard */,
+				351F05FB1E86018F0074FA8E /* Info.plist */,
+			);
+			path = "ADEM Searchbar";
+			sourceTree = "<group>";
+		};
+		351F06031E86018F0074FA8E /* ADEM SearchbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				351F06041E86018F0074FA8E /* ADEM_SearchbarTests.swift */,
+				351F06061E86018F0074FA8E /* Info.plist */,
+			);
+			path = "ADEM SearchbarTests";
+			sourceTree = "<group>";
+		};
+		351F060E1E86018F0074FA8E /* ADEM SearchbarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				351F060F1E86018F0074FA8E /* ADEM_SearchbarUITests.swift */,
+				351F06111E86018F0074FA8E /* Info.plist */,
+			);
+			path = "ADEM SearchbarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		351F05E91E86018F0074FA8E /* ADEM Searchbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 351F06141E86018F0074FA8E /* Build configuration list for PBXNativeTarget "ADEM Searchbar" */;
+			buildPhases = (
+				351F05E61E86018F0074FA8E /* Sources */,
+				351F05E71E86018F0074FA8E /* Frameworks */,
+				351F05E81E86018F0074FA8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ADEM Searchbar";
+			productName = "ADEM Searchbar";
+			productReference = 351F05EA1E86018F0074FA8E /* ADEM Searchbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		351F05FF1E86018F0074FA8E /* ADEM SearchbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 351F06171E86018F0074FA8E /* Build configuration list for PBXNativeTarget "ADEM SearchbarTests" */;
+			buildPhases = (
+				351F05FC1E86018F0074FA8E /* Sources */,
+				351F05FD1E86018F0074FA8E /* Frameworks */,
+				351F05FE1E86018F0074FA8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				351F06021E86018F0074FA8E /* PBXTargetDependency */,
+			);
+			name = "ADEM SearchbarTests";
+			productName = "ADEM SearchbarTests";
+			productReference = 351F06001E86018F0074FA8E /* ADEM SearchbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		351F060A1E86018F0074FA8E /* ADEM SearchbarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 351F061A1E86018F0074FA8E /* Build configuration list for PBXNativeTarget "ADEM SearchbarUITests" */;
+			buildPhases = (
+				351F06071E86018F0074FA8E /* Sources */,
+				351F06081E86018F0074FA8E /* Frameworks */,
+				351F06091E86018F0074FA8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				351F060D1E86018F0074FA8E /* PBXTargetDependency */,
+			);
+			name = "ADEM SearchbarUITests";
+			productName = "ADEM SearchbarUITests";
+			productReference = 351F060B1E86018F0074FA8E /* ADEM SearchbarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		351F05E21E86018F0074FA8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Coleman Coats";
+				TargetAttributes = {
+					351F05E91E86018F0074FA8E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					351F05FF1E86018F0074FA8E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 351F05E91E86018F0074FA8E;
+					};
+					351F060A1E86018F0074FA8E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 351F05E91E86018F0074FA8E;
+					};
+				};
+			};
+			buildConfigurationList = 351F05E51E86018F0074FA8E /* Build configuration list for PBXProject "ADEM Searchbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 351F05E11E86018F0074FA8E;
+			productRefGroup = 351F05EB1E86018F0074FA8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				351F05E91E86018F0074FA8E /* ADEM Searchbar */,
+				351F05FF1E86018F0074FA8E /* ADEM SearchbarTests */,
+				351F060A1E86018F0074FA8E /* ADEM SearchbarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		351F05E81E86018F0074FA8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351F05FA1E86018F0074FA8E /* LaunchScreen.storyboard in Resources */,
+				351F05F71E86018F0074FA8E /* Assets.xcassets in Resources */,
+				351F05F51E86018F0074FA8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351F05FE1E86018F0074FA8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351F06091E86018F0074FA8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		351F05E61E86018F0074FA8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D29E0D1E9736D5009C449A /* SearchViewController.swift in Sources */,
+				351F05F21E86018F0074FA8E /* SecondViewController.swift in Sources */,
+				351F061E1E8601F40074FA8E /* ListTableViewCell.swift in Sources */,
+				35D29E131E9819AA009C449A /* ResultsViewController.swift in Sources */,
+				35D29E0F1E973771009C449A /* SearchTableViewCell.swift in Sources */,
+				351F05EE1E86018F0074FA8E /* AppDelegate.swift in Sources */,
+				351F05F01E86018F0074FA8E /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351F05FC1E86018F0074FA8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351F06051E86018F0074FA8E /* ADEM_SearchbarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351F06071E86018F0074FA8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351F06101E86018F0074FA8E /* ADEM_SearchbarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		351F06021E86018F0074FA8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 351F05E91E86018F0074FA8E /* ADEM Searchbar */;
+			targetProxy = 351F06011E86018F0074FA8E /* PBXContainerItemProxy */;
+		};
+		351F060D1E86018F0074FA8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 351F05E91E86018F0074FA8E /* ADEM Searchbar */;
+			targetProxy = 351F060C1E86018F0074FA8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		351F05F31E86018F0074FA8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				351F05F41E86018F0074FA8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		351F05F81E86018F0074FA8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				351F05F91E86018F0074FA8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		351F06121E86018F0074FA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		351F06131E86018F0074FA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		351F06151E86018F0074FA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ADEM Searchbar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.ADEM-Searchbar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		351F06161E86018F0074FA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ADEM Searchbar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.ADEM-Searchbar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		351F06181E86018F0074FA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ADEM SearchbarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.ADEM-SearchbarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADEM Searchbar.app/ADEM Searchbar";
+			};
+			name = Debug;
+		};
+		351F06191E86018F0074FA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ADEM SearchbarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.ADEM-SearchbarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADEM Searchbar.app/ADEM Searchbar";
+			};
+			name = Release;
+		};
+		351F061B1E86018F0074FA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "ADEM SearchbarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.ADEM-SearchbarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ADEM Searchbar";
+			};
+			name = Debug;
+		};
+		351F061C1E86018F0074FA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "ADEM SearchbarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.ADEM-SearchbarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ADEM Searchbar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		351F05E51E86018F0074FA8E /* Build configuration list for PBXProject "ADEM Searchbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351F06121E86018F0074FA8E /* Debug */,
+				351F06131E86018F0074FA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		351F06141E86018F0074FA8E /* Build configuration list for PBXNativeTarget "ADEM Searchbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351F06151E86018F0074FA8E /* Debug */,
+				351F06161E86018F0074FA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		351F06171E86018F0074FA8E /* Build configuration list for PBXNativeTarget "ADEM SearchbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351F06181E86018F0074FA8E /* Debug */,
+				351F06191E86018F0074FA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		351F061A1E86018F0074FA8E /* Build configuration list for PBXNativeTarget "ADEM SearchbarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351F061B1E86018F0074FA8E /* Debug */,
+				351F061C1E86018F0074FA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 351F05E21E86018F0074FA8E /* Project object */;
+}
