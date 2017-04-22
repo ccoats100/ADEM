@@ -14,11 +14,14 @@ class PantryViewController: UIViewController {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
 	}
+	
 	/* @IBOutlet weak var Recipies: UIBarButtonItem!
+	
 	
 	This button will be used in further iterartions as a place for users to enter their recipies and get recipies from what they have in their pantry
 	*/
 
+	// test
 
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
