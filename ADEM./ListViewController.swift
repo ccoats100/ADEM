@@ -12,7 +12,7 @@ class ListViewController: UIViewController,UITableViewDataSource {
 	@IBOutlet weak var totalPrice: UILabel!
 	
 	
-
+	var item = [Any]()
 	var name:[String] = ["Milk","Eggs"]
 	var cost:[String] = ["$\(9)","$\(8)"]
 	
@@ -20,9 +20,16 @@ class ListViewController: UIViewController,UITableViewDataSource {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
+		self.navigationItem.rightBarButtonItem = self.editButtonItem
 	}
 	
 	
+	// Mark: - Segues
+	
+			
+	
+	
+	// Mark: - Table View
 	
 	
 	func numberOfSections(in tableView: UITableView) -> Int {
@@ -35,11 +42,23 @@ class ListViewController: UIViewController,UITableViewDataSource {
 	}
 	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 		let cell = tableView.dequeueReusableCell(withIdentifier: "item", for: indexPath) as! TotalPriceTableViewCell
-		cell.itemName.text  = name[indexPath.row]
-		cell.itemPrice.text = cost[indexPath.row]
+		cell.itemName!.text  = name[indexPath.row]
+		cell.itemPrice!.text = cost[indexPath.row]
 		return cell
 	}
 	
+	func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+		return true
+	}
+	
+	func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+		if editingStyle == .delete {
+			name.remove(at: indexPath.row)
+			tableView.deleteRows(at: [indexPath], with: .fade)
+		}	else if editingStyle == .insert {
+			
+		}
+	}
 	
 	
 	override func didReceiveMemoryWarning() {
