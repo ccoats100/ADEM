@@ -16,8 +16,9 @@ class MealsViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-	@IBAction func breakfast(_ sender: Any) {
 	
+	@IBAction func breakfast(_ sender: Any) {
+		
 	}
 	
 	@IBAction func lunch(_ sender: Any) {

@@ -264,98 +264,6 @@
             </objects>
             <point key="canvasLocation" x="1688.8" y="1034.9325337331336"/>
         </scene>
-        <!--Meals-->
-        <scene sceneID="8L1-aw-nU3">
-            <objects>
-                <viewController id="kc3-up-hTb" customClass="MealsViewController" customModule="ADEM_" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Oeq-yh-re0"/>
-                        <viewControllerLayoutGuide type="bottom" id="xbG-t5-lFZ"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="qLq-jx-Cr6">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CD1-8V-7rd">
-                                <rect key="frame" x="8" y="72" width="359" height="174"/>
-                                <state key="normal" title="Breakfast" backgroundImage="sweet-monday-morning-picjumbo-com">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Breakfast">
-                                            <attributes>
-                                                <font key="NSFont" size="36" name="LearningCurve"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <action selector="breakfast:" destination="kc3-up-hTb" eventType="touchUpInside" id="lRt-Oc-yfs"/>
-                                    <segue destination="IFT-m8-hQg" kind="show" id="CVW-rA-OaU"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iIA-8C-PhR">
-                                <rect key="frame" x="8" y="254" width="359" height="174"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="45"/>
-                                <state key="normal" title="Lunch" backgroundImage="preparing-salami-pizza-picjumbo-com">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="lunch:" destination="kc3-up-hTb" eventType="touchUpInside" id="vwQ-xU-oL2"/>
-                                    <segue destination="Sop-1l-wl1" kind="show" id="RhH-Fi-sdG"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YNL-hC-R5g">
-                                <rect key="frame" x="8" y="436" width="359" height="174"/>
-                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="33"/>
-                                <state key="normal" title="Dinner" backgroundImage="sweet-morning-breakfast-picjumbo-com">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="dinner:" destination="kc3-up-hTb" eventType="touchUpInside" id="FGu-5R-TDi"/>
-                                    <segue destination="7jH-HW-2iS" kind="show" id="Vdx-8b-aep"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="iIA-8C-PhR" secondAttribute="trailing" constant="8" id="35M-bA-pCj"/>
-                            <constraint firstItem="CD1-8V-7rd" firstAttribute="leading" secondItem="qLq-jx-Cr6" secondAttribute="leading" constant="8" id="3df-GT-EfY"/>
-                            <constraint firstItem="YNL-hC-R5g" firstAttribute="height" secondItem="CD1-8V-7rd" secondAttribute="height" id="4BD-tZ-GVI"/>
-                            <constraint firstAttribute="trailing" secondItem="YNL-hC-R5g" secondAttribute="trailing" constant="8" id="G4b-oR-xGU"/>
-                            <constraint firstItem="iIA-8C-PhR" firstAttribute="leading" secondItem="qLq-jx-Cr6" secondAttribute="leading" constant="8" id="KED-zb-20e"/>
-                            <constraint firstItem="iIA-8C-PhR" firstAttribute="height" secondItem="CD1-8V-7rd" secondAttribute="height" id="Qab-RV-ahV"/>
-                            <constraint firstItem="iIA-8C-PhR" firstAttribute="top" secondItem="CD1-8V-7rd" secondAttribute="bottom" constant="8" id="TJi-9A-lZ7"/>
-                            <constraint firstItem="xbG-t5-lFZ" firstAttribute="top" secondItem="YNL-hC-R5g" secondAttribute="bottom" constant="8" id="Vq7-9F-8aG"/>
-                            <constraint firstItem="YNL-hC-R5g" firstAttribute="leading" secondItem="qLq-jx-Cr6" secondAttribute="leading" constant="8" id="Xow-R2-Bml"/>
-                            <constraint firstItem="YNL-hC-R5g" firstAttribute="width" secondItem="CD1-8V-7rd" secondAttribute="width" id="fyp-cO-geO"/>
-                            <constraint firstItem="iIA-8C-PhR" firstAttribute="width" secondItem="CD1-8V-7rd" secondAttribute="width" id="gY8-Zx-Hge"/>
-                            <constraint firstAttribute="trailing" secondItem="CD1-8V-7rd" secondAttribute="trailing" constant="8" id="inL-Br-1ht"/>
-                            <constraint firstItem="CD1-8V-7rd" firstAttribute="top" secondItem="Oeq-yh-re0" secondAttribute="bottom" constant="8" id="vOp-kx-Ea5"/>
-                            <constraint firstItem="YNL-hC-R5g" firstAttribute="top" secondItem="iIA-8C-PhR" secondAttribute="bottom" constant="8" id="wIe-Vt-rVR"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" title="Meals" id="P5c-hN-NaS">
-                        <barButtonItem key="leftBarButtonItem" title="Settings" id="4h6-Tt-kU8">
-                            <connections>
-                                <segue destination="Ris-he-hv7" kind="show" id="M4N-Vk-VzA"/>
-                            </connections>
-                        </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="m7F-O2-F9C">
-                            <connections>
-                                <segue destination="L5M-n9-gX9" kind="show" id="iEg-MB-G3R"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="breakfast" destination="CD1-8V-7rd" id="NeY-X8-gOG"/>
-                        <outlet property="dinner" destination="YNL-hC-R5g" id="G0D-La-bXi"/>
-                        <outlet property="lunch" destination="iIA-8C-PhR" id="Bh3-az-VwU"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BEP-G3-2pS" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1688.8" y="1732.9835082458771"/>
-        </scene>
         <!--Breakfast-->
         <scene sceneID="hFt-Vo-vBO">
             <objects>
@@ -592,7 +500,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Po8-ZI-1HL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1688.8" y="2477.8110944527739"/>
+            <point key="canvasLocation" x="1790" y="2659"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -608,7 +516,7 @@
                         <segue destination="ZRp-Ql-lrL" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="Yv5-N9-1NG" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="IkV-I1-MhH" kind="relationship" relationship="viewControllers" id="PgP-7T-abT"/>
-                        <segue destination="O9Y-qK-CfT" kind="relationship" relationship="viewControllers" id="rHy-nz-Msy"/>
+                        <segue destination="e1Y-r5-Iik" kind="relationship" relationship="viewControllers" id="AQa-c2-ArX"/>
                         <segue destination="lq7-0x-c8u" kind="relationship" relationship="viewControllers" id="I7b-ed-6XJ"/>
                     </connections>
                 </tabBarController>
@@ -673,24 +581,79 @@
             </objects>
             <point key="canvasLocation" x="749.60000000000002" y="1034.9325337331336"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="zMM-rW-Z8d">
+        <!--Meals View Controller-->
+        <scene sceneID="8EX-lf-0ic">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="O9Y-qK-CfT" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="VjG-5P-XRc"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iXU-Jo-lbR">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="kc3-up-hTb" kind="relationship" relationship="rootViewController" id="0GK-x4-Zsl"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XHF-G8-UlI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="7Yr-Ai-1H8" customClass="MealsViewController" customModule="ADEM_" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="94s-rd-OJp"/>
+                        <viewControllerLayoutGuide type="bottom" id="En0-Ko-oVo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5so-Ou-8m5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZF-dF-cwf">
+                                <rect key="frame" x="8" y="72" width="359" height="174"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="45"/>
+                                <state key="normal" title="Breakfast" backgroundImage="sweet-monday-morning-picjumbo-com"/>
+                                <connections>
+                                    <segue destination="IFT-m8-hQg" kind="show" id="VSV-oi-L1x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VaH-ww-RKO">
+                                <rect key="frame" x="8" y="436" width="359" height="174"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="45"/>
+                                <state key="normal" title="Dinner" backgroundImage="sweet-morning-breakfast-picjumbo-com"/>
+                                <connections>
+                                    <segue destination="7jH-HW-2iS" kind="show" id="Ohx-wn-eja"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QPu-CT-wgg">
+                                <rect key="frame" x="8" y="254" width="359" height="174"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="45"/>
+                                <state key="normal" title="Lunch" backgroundImage="preparing-salami-pizza-picjumbo-com">
+                                    <color key="titleColor" red="0.030595653553299518" green="0.0067380078971835981" blue="0.0041679317690265956" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Sop-1l-wl1" kind="show" id="hIy-EB-MUR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DZF-dF-cwf" firstAttribute="leading" secondItem="5so-Ou-8m5" secondAttribute="leading" constant="8" id="1AI-Wj-iYj"/>
+                            <constraint firstItem="VaH-ww-RKO" firstAttribute="width" secondItem="DZF-dF-cwf" secondAttribute="width" id="35n-Ww-DFH"/>
+                            <constraint firstItem="QPu-CT-wgg" firstAttribute="width" secondItem="DZF-dF-cwf" secondAttribute="width" id="5F7-Sf-3RU"/>
+                            <constraint firstItem="VaH-ww-RKO" firstAttribute="height" secondItem="DZF-dF-cwf" secondAttribute="height" id="5It-Ga-rVC"/>
+                            <constraint firstItem="VaH-ww-RKO" firstAttribute="top" secondItem="QPu-CT-wgg" secondAttribute="bottom" constant="8" id="8mg-S9-aq7"/>
+                            <constraint firstAttribute="trailing" secondItem="DZF-dF-cwf" secondAttribute="trailing" constant="8" id="CgG-yL-Kco"/>
+                            <constraint firstItem="En0-Ko-oVo" firstAttribute="top" secondItem="VaH-ww-RKO" secondAttribute="bottom" constant="8" id="IYv-ek-Nyw"/>
+                            <constraint firstAttribute="trailing" secondItem="VaH-ww-RKO" secondAttribute="trailing" constant="8" id="QcG-hB-Tf5"/>
+                            <constraint firstItem="VaH-ww-RKO" firstAttribute="leading" secondItem="5so-Ou-8m5" secondAttribute="leading" constant="8" id="VLF-fq-II2"/>
+                            <constraint firstItem="DZF-dF-cwf" firstAttribute="top" secondItem="94s-rd-OJp" secondAttribute="bottom" constant="8" id="awL-7R-Iak"/>
+                            <constraint firstItem="QPu-CT-wgg" firstAttribute="leading" secondItem="5so-Ou-8m5" secondAttribute="leading" constant="8" id="ckO-4y-eYk"/>
+                            <constraint firstItem="QPu-CT-wgg" firstAttribute="height" secondItem="DZF-dF-cwf" secondAttribute="height" id="nIc-Vn-FWR"/>
+                            <constraint firstAttribute="trailing" secondItem="QPu-CT-wgg" secondAttribute="trailing" constant="8" id="pYv-V4-lMH"/>
+                            <constraint firstItem="QPu-CT-wgg" firstAttribute="top" secondItem="DZF-dF-cwf" secondAttribute="bottom" constant="8" id="zkw-Tj-wSJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="zkC-73-7Vi">
+                        <barButtonItem key="leftBarButtonItem" title="Settings" id="4h6-Tt-kU8">
+                            <connections>
+                                <segue destination="Ris-he-hv7" kind="show" id="M4N-Vk-VzA"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="m7F-O2-F9C">
+                            <connections>
+                                <segue destination="L5M-n9-gX9" kind="show" id="iEg-MB-G3R"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RMv-Xt-mG0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749.60000000000002" y="1732.9835082458771"/>
+            <point key="canvasLocation" x="1689" y="1733"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Pgq-gl-nAt">
@@ -709,7 +672,26 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7lc-Aj-rAX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749.60000000000002" y="2477.8110944527739"/>
+            <point key="canvasLocation" x="750" y="2659"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="MZc-Oa-cjb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="e1Y-r5-Iik" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="search" id="Q6d-Dz-ngM"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fMB-HL-Tjm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7Yr-Ai-1H8" kind="relationship" relationship="rootViewController" id="6dV-b4-b3T"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QY5-Rj-d90" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="1734"/>
         </scene>
     </scenes>
     <resources>
@@ -722,6 +704,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="XFH-LH-v1h"/>
-        <segue reference="M4N-Vk-VzA"/>
+        <segue reference="WoQ-iA-ZxR"/>
     </inferredMetricsTieBreakers>
 </document>
